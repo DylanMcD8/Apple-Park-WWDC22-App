@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		669C8D61284BE8EA0018FB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D60284BE8EA0018FB15 /* AppDelegate.swift */; };
+		669C8D63284BE8EA0018FB15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D62284BE8EA0018FB15 /* SceneDelegate.swift */; };
+		669C8D65284BE8EA0018FB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D64284BE8EA0018FB15 /* ViewController.swift */; };
+		669C8D68284BE8EA0018FB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669C8D66284BE8EA0018FB15 /* Main.storyboard */; };
+		669C8D6A284BE8EC0018FB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669C8D69284BE8EC0018FB15 /* Assets.xcassets */; };
+		669C8D6D284BE8EC0018FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669C8D6B284BE8EC0018FB15 /* LaunchScreen.storyboard */; };
+		669C8D78284BE8EC0018FB15 /* _Park_WWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D77284BE8EC0018FB15 /* _Park_WWDCTests.swift */; };
+		669C8D82284BE8EC0018FB15 /* _Park_WWDCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D81284BE8EC0018FB15 /* _Park_WWDCUITests.swift */; };
+		669C8D84284BE8EC0018FB15 /* _Park_WWDCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D83284BE8EC0018FB15 /* _Park_WWDCUITestsLaunchTests.swift */; };
+		669C8D91284BE9B70018FB15 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D90284BE9B70018FB15 /* ScheduleTableViewController.swift */; };
+		669C8D93284BFEB90018FB15 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D92284BFEB90018FB15 /* DetailsTableViewController.swift */; };
+		669C8D96284C04390018FB15 /* ToolbarDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C8D95284C04390018FB15 /* ToolbarDelegates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		669C8D74284BE8EC0018FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669C8D55284BE8EA0018FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669C8D5C284BE8EA0018FB15;
+			remoteInfo = "Park WWDC";
+		};
+		669C8D7E284BE8EC0018FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669C8D55284BE8EA0018FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 669C8D5C284BE8EA0018FB15;
+			remoteInfo = "Park WWDC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		669C8D5D284BE8EA0018FB15 /* Park WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park WWDC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669C8D60284BE8EA0018FB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		669C8D62284BE8EA0018FB15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		669C8D64284BE8EA0018FB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		669C8D67284BE8EA0018FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669C8D69284BE8EC0018FB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669C8D6C284BE8EC0018FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		669C8D6E284BE8EC0018FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669C8D73284BE8EC0018FB15 /* Park WWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park WWDCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669C8D77284BE8EC0018FB15 /* _Park_WWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Park_WWDCTests.swift; sourceTree = "<group>"; };
+		669C8D7D284BE8EC0018FB15 /* Park WWDCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park WWDCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669C8D81284BE8EC0018FB15 /* _Park_WWDCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Park_WWDCUITests.swift; sourceTree = "<group>"; };
+		669C8D83284BE8EC0018FB15 /* _Park_WWDCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Park_WWDCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669C8D90284BE9B70018FB15 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		669C8D92284BFEB90018FB15 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		669C8D94284C02160018FB15 /* Park WWDC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Park WWDC.entitlements"; sourceTree = "<group>"; };
+		669C8D95284C04390018FB15 /* ToolbarDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarDelegates.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669C8D5A284BE8EA0018FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D70284BE8EC0018FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D7A284BE8EC0018FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669C8D54284BE8EA0018FB15 = {
+			isa = PBXGroup;
+			children = (
+				669C8D5F284BE8EA0018FB15 /* Park WWDC */,
+				669C8D76284BE8EC0018FB15 /* Park WWDCTests */,
+				669C8D80284BE8EC0018FB15 /* Park WWDCUITests */,
+				669C8D5E284BE8EA0018FB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669C8D5E284BE8EA0018FB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669C8D5D284BE8EA0018FB15 /* Park WWDC.app */,
+				669C8D73284BE8EC0018FB15 /* Park WWDCTests.xctest */,
+				669C8D7D284BE8EC0018FB15 /* Park WWDCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669C8D5F284BE8EA0018FB15 /* Park WWDC */ = {
+			isa = PBXGroup;
+			children = (
+				669C8D94284C02160018FB15 /* Park WWDC.entitlements */,
+				669C8D60284BE8EA0018FB15 /* AppDelegate.swift */,
+				669C8D62284BE8EA0018FB15 /* SceneDelegate.swift */,
+				669C8D95284C04390018FB15 /* ToolbarDelegates.swift */,
+				669C8D66284BE8EA0018FB15 /* Main.storyboard */,
+				669C8D64284BE8EA0018FB15 /* ViewController.swift */,
+				669C8D90284BE9B70018FB15 /* ScheduleTableViewController.swift */,
+				669C8D92284BFEB90018FB15 /* DetailsTableViewController.swift */,
+				669C8D69284BE8EC0018FB15 /* Assets.xcassets */,
+				669C8D6B284BE8EC0018FB15 /* LaunchScreen.storyboard */,
+				669C8D6E284BE8EC0018FB15 /* Info.plist */,
+			);
+			path = "Park WWDC";
+			sourceTree = "<group>";
+		};
+		669C8D76284BE8EC0018FB15 /* Park WWDCTests */ = {
+			isa = PBXGroup;
+			children = (
+				669C8D77284BE8EC0018FB15 /* _Park_WWDCTests.swift */,
+			);
+			path = "Park WWDCTests";
+			sourceTree = "<group>";
+		};
+		669C8D80284BE8EC0018FB15 /* Park WWDCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				669C8D81284BE8EC0018FB15 /* _Park_WWDCUITests.swift */,
+				669C8D83284BE8EC0018FB15 /* _Park_WWDCUITestsLaunchTests.swift */,
+			);
+			path = "Park WWDCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669C8D5C284BE8EA0018FB15 /* Park WWDC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669C8D87284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDC" */;
+			buildPhases = (
+				669C8D59284BE8EA0018FB15 /* Sources */,
+				669C8D5A284BE8EA0018FB15 /* Frameworks */,
+				669C8D5B284BE8EA0018FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park WWDC";
+			productName = "Park WWDC";
+			productReference = 669C8D5D284BE8EA0018FB15 /* Park WWDC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		669C8D72284BE8EC0018FB15 /* Park WWDCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669C8D8A284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDCTests" */;
+			buildPhases = (
+				669C8D6F284BE8EC0018FB15 /* Sources */,
+				669C8D70284BE8EC0018FB15 /* Frameworks */,
+				669C8D71284BE8EC0018FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669C8D75284BE8EC0018FB15 /* PBXTargetDependency */,
+			);
+			name = "Park WWDCTests";
+			productName = "Park WWDCTests";
+			productReference = 669C8D73284BE8EC0018FB15 /* Park WWDCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		669C8D7C284BE8EC0018FB15 /* Park WWDCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669C8D8D284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDCUITests" */;
+			buildPhases = (
+				669C8D79284BE8EC0018FB15 /* Sources */,
+				669C8D7A284BE8EC0018FB15 /* Frameworks */,
+				669C8D7B284BE8EC0018FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669C8D7F284BE8EC0018FB15 /* PBXTargetDependency */,
+			);
+			name = "Park WWDCUITests";
+			productName = "Park WWDCUITests";
+			productReference = 669C8D7D284BE8EC0018FB15 /* Park WWDCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669C8D55284BE8EA0018FB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					669C8D5C284BE8EA0018FB15 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					669C8D72284BE8EC0018FB15 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 669C8D5C284BE8EA0018FB15;
+					};
+					669C8D7C284BE8EC0018FB15 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 669C8D5C284BE8EA0018FB15;
+					};
+				};
+			};
+			buildConfigurationList = 669C8D58284BE8EA0018FB15 /* Build configuration list for PBXProject "Park WWDC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 669C8D54284BE8EA0018FB15;
+			productRefGroup = 669C8D5E284BE8EA0018FB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669C8D5C284BE8EA0018FB15 /* Park WWDC */,
+				669C8D72284BE8EC0018FB15 /* Park WWDCTests */,
+				669C8D7C284BE8EC0018FB15 /* Park WWDCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669C8D5B284BE8EA0018FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669C8D6D284BE8EC0018FB15 /* LaunchScreen.storyboard in Resources */,
+				669C8D6A284BE8EC0018FB15 /* Assets.xcassets in Resources */,
+				669C8D68284BE8EA0018FB15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D71284BE8EC0018FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D7B284BE8EC0018FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669C8D59284BE8EA0018FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669C8D96284C04390018FB15 /* ToolbarDelegates.swift in Sources */,
+				669C8D91284BE9B70018FB15 /* ScheduleTableViewController.swift in Sources */,
+				669C8D93284BFEB90018FB15 /* DetailsTableViewController.swift in Sources */,
+				669C8D65284BE8EA0018FB15 /* ViewController.swift in Sources */,
+				669C8D61284BE8EA0018FB15 /* AppDelegate.swift in Sources */,
+				669C8D63284BE8EA0018FB15 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D6F284BE8EC0018FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669C8D78284BE8EC0018FB15 /* _Park_WWDCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669C8D79284BE8EC0018FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669C8D82284BE8EC0018FB15 /* _Park_WWDCUITests.swift in Sources */,
+				669C8D84284BE8EC0018FB15 /* _Park_WWDCUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		669C8D75284BE8EC0018FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669C8D5C284BE8EA0018FB15 /* Park WWDC */;
+			targetProxy = 669C8D74284BE8EC0018FB15 /* PBXContainerItemProxy */;
+		};
+		669C8D7F284BE8EC0018FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 669C8D5C284BE8EA0018FB15 /* Park WWDC */;
+			targetProxy = 669C8D7E284BE8EC0018FB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		669C8D66284BE8EA0018FB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669C8D67284BE8EA0018FB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		669C8D6B284BE8EC0018FB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669C8D6C284BE8EC0018FB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669C8D85284BE8EC0018FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		669C8D86284BE8EC0018FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669C8D88284BE8EC0018FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Park WWDC/Park WWDC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Park WWDC/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WWDC22;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.wwdc-schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		669C8D89284BE8EC0018FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Park WWDC/Park WWDC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Park WWDC/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WWDC22;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.wwdc-schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		669C8D8B284BE8EC0018FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.-Park-WWDCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park WWDC.app/Park WWDC";
+			};
+			name = Debug;
+		};
+		669C8D8C284BE8EC0018FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.-Park-WWDCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park WWDC.app/Park WWDC";
+			};
+			name = Release;
+		};
+		669C8D8E284BE8EC0018FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.-Park-WWDCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Park WWDC";
+			};
+			name = Debug;
+		};
+		669C8D8F284BE8EC0018FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.-Park-WWDCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Park WWDC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669C8D58284BE8EA0018FB15 /* Build configuration list for PBXProject "Park WWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669C8D85284BE8EC0018FB15 /* Debug */,
+				669C8D86284BE8EC0018FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669C8D87284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669C8D88284BE8EC0018FB15 /* Debug */,
+				669C8D89284BE8EC0018FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669C8D8A284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669C8D8B284BE8EC0018FB15 /* Debug */,
+				669C8D8C284BE8EC0018FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669C8D8D284BE8EC0018FB15 /* Build configuration list for PBXNativeTarget "Park WWDCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669C8D8E284BE8EC0018FB15 /* Debug */,
+				669C8D8F284BE8EC0018FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669C8D55284BE8EA0018FB15 /* Project object */;
+}

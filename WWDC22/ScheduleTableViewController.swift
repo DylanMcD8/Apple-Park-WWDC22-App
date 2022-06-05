@@ -12,6 +12,10 @@ class ScheduleTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.overrideUserInterfaceStyle = .dark
+        
+        tableView.backgroundView = UIImageView(image: UIImage(named: "Gradient"))
+        tableView.backgroundView?.contentMode = .scaleToFill
+                
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -41,9 +45,7 @@ class ScheduleTableViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    override func viewDidLayoutSubviews() {
-        setGradientBackground()
-    }
+   
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -52,21 +54,6 @@ class ScheduleTableViewController: UITableViewController {
             updateTitleBar(withDelegate: ScheduleToolbarDelegate(), withTitle: "Schedule", withSubtitle: "", iconMode: .iconOnly, sender: self, session: (self.view.window?.windowScene?.session)!)
         #endif
         }
-    }
-
-    func setGradientBackground() {
-        let gradientLayer = CAGradientLayer()
-        
-        gradientLayer.removeFromSuperlayer()
-        
-        let colorTop =  UIColor(red: 16/255.0, green: 22/255.0, blue: 39/255.0, alpha: 1.0).cgColor
-        let colorBottom = UIColor(red: 3/255.0, green: 8/255.0, blue: 21/255.0, alpha: 1.0).cgColor
-                    
-        gradientLayer.colors = [colorTop, colorBottom]
-        gradientLayer.locations = [0.0, 1.0]
-        gradientLayer.frame = self.view.bounds
-                
-        self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
 
     

@@ -25,12 +25,12 @@ class DetailsTableViewController: UITableViewController {
         locationLabel.text = scheduleLocations[indexToUse]
         descriptionLabel.text = scheduleDescs[indexToUse]
         iconImage.image = UIImage(systemName: scheduleImages[indexToUse]) ?? UIImage(named: "Keynote")!
+        
+        tableView.backgroundView = UIImageView(image: UIImage(named: "Gradient"))
+        tableView.backgroundView?.contentMode = .scaleToFill
     }
     
-    override func viewDidLayoutSubviews() {
-        setGradientBackground()
-    }
-    
+  
     @objc func goBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }

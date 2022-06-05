@@ -11,7 +11,7 @@
         <!--Website-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_Park_WWDC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WWDC22" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--Schedule-->
         <scene sceneID="hEB-uI-H6J">
             <objects>
-                <tableViewController id="6xl-rG-W8V" customClass="ScheduleTableViewController" customModule="_Park_WWDC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="6xl-rG-W8V" customClass="ScheduleTableViewController" customModule="WWDC22" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="8" estimatedSectionHeaderHeight="-1" sectionFooterHeight="8" estimatedSectionFooterHeight="-1" id="luW-hO-u2y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,7 +57,7 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Main Cell" textLabel="tbD-Yj-AtS" detailTextLabel="hfZ-3r-oeD" imageView="fL2-fK-eSo" style="IBUITableViewCellStyleSubtitle" id="Rle-9P-S4n" customClass="ColorfulTableViewCell" customModule="_Park_WWDC" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Main Cell" textLabel="tbD-Yj-AtS" detailTextLabel="hfZ-3r-oeD" imageView="fL2-fK-eSo" style="IBUITableViewCellStyleSubtitle" id="Rle-9P-S4n" customClass="ColorfulTableViewCell" customModule="WWDC22" customModuleProvider="target">
                                 <rect key="frame" x="16" y="39.666666030883789" width="343" height="62.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rle-9P-S4n" id="PaW-07-yAD">
@@ -149,7 +149,7 @@
         <!--Event Details-->
         <scene sceneID="1d5-QY-bU6">
             <objects>
-                <tableViewController storyboardIdentifier="Details" id="reV-5m-qc2" customClass="DetailsTableViewController" customModule="_Park_WWDC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Details" id="reV-5m-qc2" customClass="DetailsTableViewController" customModule="WWDC22" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="8" estimatedSectionHeaderHeight="-1" sectionFooterHeight="8" estimatedSectionFooterHeight="-1" id="NQF-Fr-z1G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,7 +199,7 @@
                             </tableViewSection>
                             <tableViewSection id="SoV-mm-79c">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="mBh-XE-20T" detailTextLabel="xTI-bx-i2r" imageView="Pqu-IF-Nlk" style="IBUITableViewCellStyleSubtitle" id="4WG-6A-Rgq" customClass="ColorfulTableViewCell" customModule="_Park_WWDC" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="mBh-XE-20T" detailTextLabel="xTI-bx-i2r" imageView="Pqu-IF-Nlk" style="IBUITableViewCellStyleSubtitle" id="4WG-6A-Rgq" customClass="ColorfulTableViewCell" customModule="WWDC22" customModuleProvider="target">
                                         <rect key="frame" x="16" y="142.33333587646484" width="343" height="62.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4WG-6A-Rgq" id="1fF-hq-w4d">
@@ -234,7 +234,7 @@
                             </tableViewSection>
                             <tableViewSection id="bbF-xF-L1u">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="2Og-Z1-dGP" detailTextLabel="ZCL-MV-TdM" imageView="NBe-Fh-SEA" style="IBUITableViewCellStyleSubtitle" id="5Iy-cB-yGp" customClass="ColorfulTableViewCell" customModule="_Park_WWDC" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="2Og-Z1-dGP" detailTextLabel="ZCL-MV-TdM" imageView="NBe-Fh-SEA" style="IBUITableViewCellStyleSubtitle" id="5Iy-cB-yGp" customClass="ColorfulTableViewCell" customModule="WWDC22" customModuleProvider="target">
                                         <rect key="frame" x="16" y="221.00000381469727" width="343" height="62.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Iy-cB-yGp" id="03Y-1M-Vut">
@@ -269,7 +269,7 @@
                             </tableViewSection>
                             <tableViewSection id="LEj-mT-i7r">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="sOD-MQ-oWn" style="IBUITableViewCellStyleDefault" id="Hxw-mL-Fuw" customClass="ColorfulTableViewCell" customModule="_Park_WWDC" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="sOD-MQ-oWn" style="IBUITableViewCellStyleDefault" id="Hxw-mL-Fuw" customClass="ColorfulTableViewCell" customModule="WWDC22" customModuleProvider="target">
                                         <rect key="frame" x="16" y="299.66667175292969" width="343" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hxw-mL-Fuw" id="Uah-Ga-A2T">
@@ -317,7 +317,7 @@
         <image name="person.3" catalog="system" width="128" height="62"/>
         <image name="safari.fill" catalog="system" width="128" height="121"/>
         <namedColor name="AccentColor">
-            <color red="0.31400001049041748" green="0.68599998950958252" blue="0.68999999761581421" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.46700000762939453" green="0.75300002098083496" blue="0.80800002813339233" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Background">
             <color red="0.016000000759959221" green="0.059000000357627869" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

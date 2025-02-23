@@ -20,6 +20,7 @@ class DetailsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.overrideUserInterfaceStyle = .dark 
         titleLabel.text = scheduleTitles[indexToUse]
         timeLabel.text = scheduleTimes[indexToUse]
         locationLabel.text = scheduleLocations[indexToUse]

@@ -11,7 +11,9 @@ class ScheduleTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.overrideUserInterfaceStyle = .dark
+        self.view.window?.overrideUserInterfaceStyle = .dark
+        self.navigationController?.overrideUserInterfaceStyle = .dark
+        self.tabBarController?.overrideUserInterfaceStyle = .dark
         
         tableView.backgroundView = UIImageView(image: UIImage(named: "Gradient"))
         tableView.backgroundView?.contentMode = .scaleToFill

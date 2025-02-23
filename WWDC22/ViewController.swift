@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.overrideUserInterfaceStyle = .dark
+        self.view.window?.overrideUserInterfaceStyle = .dark
+        self.navigationController?.overrideUserInterfaceStyle = .dark
+        self.overrideUserInterfaceStyle = .dark 
         let link = URL(string:"https://events.apple.com/ms/xww6uj7woR0X9A3Z9K4JRk5VdHioJeacopALBwoa3Nf9qRbkXldY0xDczTPU29UduZhb5d3SyvZiIk_dEQnVOT8hg6UWOeeWdOTvn6LrOwSoH-I-IMl_UxSRCe7Ejgwy-X5BDmrCjVR7gy5OAvgtgGJaITngKdvAwIfhQMFvXho/overview")!
         let request = URLRequest(url: link)
         mainWebView.load(request)
